@@ -95,12 +95,12 @@ class MoneyManager extends Component {
   render() {
     const {
       transactionsList,
-      income,
-      balance,
-      expense,
       title,
       amount,
       type,
+      income,
+      expense,
+      balance,
     } = this.state
     console.log(title, amount)
     return (
@@ -118,7 +118,7 @@ class MoneyManager extends Component {
           <div className="details-container">
             <div className="transaction-container">
               <h1 className="transaction-heading">Add Transaction</h1>
-              <form onClick={this.onSubmitting}>
+              <form>
                 <div className="input-container">
                   <label htmlFor="title">TITLE</label>
                   <input

@@ -10,7 +10,7 @@ const TransactionItem = props => {
   }
 
   return (
-    <li key={id} className="transaction-item">
+    <li className="transaction-item">
       <h1 className="text">{title}</h1>
       <h1 className="text">{amount}</h1>
       <h1 className="text">{type}</h1>
