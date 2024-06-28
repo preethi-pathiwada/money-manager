@@ -14,7 +14,7 @@ const transactionTypeOptions = [
     displayText: 'Expenses',
   },
 ]
-
+//Testing
 class MoneyManager extends Component {
   state = {
     title: '',
@@ -93,15 +93,8 @@ class MoneyManager extends Component {
   }
 
   render() {
-    const {
-      transactionsList,
-      title,
-      amount,
-      type,
-      income,
-      expense,
-      balance,
-    } = this.state
+    const {transactionsList, title, amount, type, income, expense, balance} =
+      this.state
     console.log(title, amount)
     return (
       <div className="bg">
