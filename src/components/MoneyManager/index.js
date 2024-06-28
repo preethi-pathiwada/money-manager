@@ -118,7 +118,7 @@ class MoneyManager extends Component {
           <div className="details-container">
             <div className="transaction-container">
               <h1 className="transaction-heading">Add Transaction</h1>
-              <form>
+              <form onSubmit={this.onSubmitting}>
                 <div className="input-container">
                   <label htmlFor="title">TITLE</label>
                   <input
@@ -154,11 +154,7 @@ class MoneyManager extends Component {
                       Expenses
                     </option>
                   </select>
-                  <button
-                    type="submit"
-                    className="add-button"
-                    onClick={this.onSubmitting}
-                  >
+                  <button type="submit" className="add-button">
                     Add
                   </button>
                 </div>
