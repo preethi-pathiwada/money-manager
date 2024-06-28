@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.balance-container {
+  width: 30%;
+  height: 150px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.income-container {
+  width: 30%;
+  height: 150px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.expenses-container {
+  width: 30%;
+  height: 150px;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}

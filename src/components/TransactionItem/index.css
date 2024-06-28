@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.transaction-item {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
