@@ -14,7 +14,9 @@ const transactionTypeOptions = [
     displayText: 'Expenses',
   },
 ]
-//Testing
+
+// Testing
+
 class MoneyManager extends Component {
   state = {
     title: '',
@@ -93,9 +95,16 @@ class MoneyManager extends Component {
   }
 
   render() {
-    const {transactionsList, title, amount, type, income, expense, balance} =
-      this.state
-    console.log(title, amount)
+    const {
+      transactionsList,
+      title,
+      amount,
+      type,
+      income,
+      expense,
+      balance,
+    } = this.state
+    console.log(transactionsList)
     return (
       <div className="bg">
         <div className="card">
@@ -125,7 +134,7 @@ class MoneyManager extends Component {
                 <div className="input-container">
                   <label htmlFor="amount">AMOUNT</label>
                   <input
-                    type="number"
+                    type="text"
                     id="amount"
                     className="input-element"
                     onChange={this.onChangingAmount}
